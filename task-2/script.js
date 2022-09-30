@@ -5,5 +5,5 @@ class emp{
         this.salary=salary;
     }
 }
-var Data=[{"id":1,"name":"x","salary":200},{"id":2,"name":"y","salary":400},{"id":3,"name":"z","salary":500}];
+var Data=[{"id":1,"name":"john","salary":8000},{"id":2,"name":"mark","salary":9000},{"id":3,"name":"Yash","salary":7000}];
 document.getElementById("p1").innerHTML=JSON.stringify(Data);
