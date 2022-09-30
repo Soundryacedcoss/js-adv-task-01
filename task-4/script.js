@@ -5,9 +5,9 @@ class emp{
         this.salary=salary
     }
 }
-var obj1={"id":1,"name":"x","salary":8000}
-var obj2={"id":2,"name":"y","salary":4000}
-var obj3={"id":3,"name":"z","salary":7000}
+var obj1={"id":1,"name":"john","salary":8000}
+var obj2={"id":2,"name":"mark","salary":9000}
+var obj3={"id":3,"name":"yash","salary":7000}
 
 var arr=[]
 arr.push(obj1);
