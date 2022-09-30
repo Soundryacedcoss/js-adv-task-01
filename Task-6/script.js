@@ -17,7 +17,7 @@ arr.push(obj2);
 arr.push(obj3);
 var str=JSON.stringify(arr);
 var obj=JSON.parse(str);
-function fun(){
+let myfun=()=>{
 let table='<table><tr><th>id</th><th>Name</th><th>Salery</th></tr>'
 obj.forEach(element => {
     table+=
