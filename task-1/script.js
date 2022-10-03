@@ -17,7 +17,7 @@ var data3 = document.getElementById("sal").value;
   arr.push(obj);
   display();
 }
-// console.log(data1);
+
 function display() {
   let table='<table id="table1"><tr><th>id</th><th>Name</th><th>Salery</th><th>Action</th></tr>'
   arr.forEach((element) => {
@@ -33,14 +33,14 @@ function display() {
       element.data1 +
       '\')">delete</a>'+
       '</td></tr>'
-      // str+='</table>'
+     
   });
-  // table+='</table>';
+  table+='</table>';
   document.getElementById("Demo1").innerHTML=table;
 }
 function del(val1) {
-  for (let i = 0; i <= arr.length; i++) {
-    if (val1== arr[i].data1){
+  for (let i = 0; i < arr.length; i++) {
+    if (val1 == arr[i].data1){
       arr.splice(i, 1);
     }
   }
