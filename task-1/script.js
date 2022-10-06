@@ -8,7 +8,13 @@ var data3 = document.getElementById("sal").value;
     document.getElementById("ID").value="";
     document.getElementById("name").value='';
     document.getElementById("sal").value='';
-
+ if(data1=="" || data2==""||data3==""){
+    document.getElementById("Demo1").innerHTML="Please fill all the box";
+ }
+ else if(!isNaN(data2)){
+  document.getElementById("Demo1").innerHTML="Name should be String"
+ }
+ else{
   var obj = {
     data1: data1,
     data2: data2,
@@ -16,6 +22,7 @@ var data3 = document.getElementById("sal").value;
   };
   arr.push(obj);
   display();
+}
 }
 
 function display() {
